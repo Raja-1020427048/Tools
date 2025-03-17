@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Compressor - Optimize Your Images Online</title>
+    <meta name="description" content="Free online image compression tool to reduce image size without losing quality. Select compression level and optimize images instantly.">
+    <meta name="keywords" content="image compressor, image optimization, reduce image size, free image compression">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Image Compressor</h1>
+        <p>Reduce image size without losing quality</p>
+    </header>
+
+    <main>
+        <label for="imageInput">Upload Image:</label>
+        <input type="file" id="imageInput" accept="image/*">
+        
+        <label for="compressionLevel">Compression Level:</label>
+        <input type="range" id="compressionLevel" min="10" max="100" value="80">
+        <span id="compressionValue">80%</span>
+
+        <canvas id="canvas" style="display: none;"></canvas>
+        <button id="compressBtn">Compress Image</button>
+        <a id="downloadLink" style="display: none;">Download Compressed Image</a>
+    </main>
+
+    <!-- Google AdSense Ad Space -->
+    <div class="ad-space">
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="YOUR-ADSENSE-ID"
+             data-ad-slot="YOUR-AD-UNIT-ID"
+             data-ad-format="auto"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Image Compressor</p>
+    </footer>
+</body>
+</html>
